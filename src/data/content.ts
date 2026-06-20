@@ -1,12 +1,12 @@
 import { Building2, Hammer, Pencil, HardHat, Wrench, Zap, Droplets, Home, Palette, Brush, ClipboardList, Calculator, Eye, Building, Trees } from 'lucide-react';
 
 export const companyInfo = {
-  name: "Athanase Engineering & Construction Ltd",
-  slogan: "Building Rwanda's Future with Excellence and Innovation",
-  phone: "+250 788 123 456",
-  email: "info@athanaseconstruction.rw",
-  address: "KG 15 Ave, Kigali, Rwanda",
-  whatsapp: "+250788123456",
+  name: "Quality Home Builders",
+  slogan: "Built on Integrity, Quality Driven",
+  phone: "+250 789 877 917",
+  email: "2025@gmail.com",
+  address: "Nyamata Village, Nyamata Sector, Bugesera District",
+  whatsapp: "250789877917",
   workingHours: "Mon - Fri: 8:00 AM - 6:00 PM, Sat: 9:00 AM - 2:00 PM",
   founded: 2010,
 };

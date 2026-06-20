@@ -96,7 +96,7 @@ export function QuotePage() {
                     <div className="flex items-start gap-3">
                       <input type="checkbox" id="consent" className="mt-1 w-4 h-4 text-[#F39C12] border-gray-300 rounded focus:ring-[#F39C12]" required />
                       <label htmlFor="consent" className="text-xs sm:text-sm text-gray-600">
-                        I agree to be contacted by Athanase Engineering & Construction regarding my quote request.
+                        I agree to be contacted by Quality Home Builders regarding my quote request.
                       </label>
                     </div>
 

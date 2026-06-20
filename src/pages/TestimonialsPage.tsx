@@ -32,7 +32,7 @@ export function TestimonialsPage() {
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center text-white">
             <Quote className="w-12 h-12 sm:w-16 sm:h-16 mx-auto mb-6 sm:mb-8 opacity-50" />
             <p className="text-lg sm:text-2xl md:text-3xl font-medium italic mb-6 sm:mb-8 leading-relaxed">
-              "Working with Athanase Engineering & Construction was an exceptional experience. Their team's dedication, professionalism, and commitment to quality made our commercial complex project a complete success."
+              "Working with Quality Home Builders was an exceptional experience. Their team's dedication, professionalism, and commitment to quality made our project a complete success."
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
               <img

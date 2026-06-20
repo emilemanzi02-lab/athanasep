@@ -18,7 +18,7 @@ export function AboutPage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 text-center">
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6">
-              About <span className="text-[#F39C12]">Athanase</span>
+              About <span className="text-[#F39C12]">Quality Home Builders</span>
             </h1>
             <p className="text-base sm:text-xl text-gray-300 max-w-3xl mx-auto">
               Building Rwanda's future since 2010. A legacy of excellence, innovation, and commitment to quality construction.
@@ -43,7 +43,7 @@ export function AboutPage() {
                 centered={false}
               />
               <div className="space-y-4 text-sm sm:text-base text-gray-600 leading-relaxed">
-                <p>Athanase Engineering & Construction Ltd was founded in 2010 by Eng. Athanase Niyonzima with a clear vision: to transform Rwanda's construction landscape through innovation, quality, and integrity.</p>
+                <p>Quality Home Builders was founded in 2010 with a clear vision: to transform Rwanda's construction landscape through innovation, quality, and integrity.</p>
                 <p>Starting as a small firm with just 5 employees, we have grown into one of Rwanda's most respected construction companies, employing over 250 professionals and completing more than 250 projects across the country.</p>
                 <p>Our journey has been marked by significant milestones: from our first residential project in Kigali to major commercial complexes, infrastructure developments, and industrial facilities that have helped shape modern Rwanda.</p>
                 <p>Today, we continue to push boundaries, embracing new technologies and sustainable building practices while maintaining our core values of quality, safety, and client satisfaction.</p>
@@ -242,10 +242,10 @@ export function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
-              Partner with Rwanda's Best
+              Partner with Quality Home Builders
             </h2>
             <p className="text-base sm:text-xl text-white/90 mb-6 sm:mb-8">
-              Join the list of satisfied clients who have trusted Athanase Engineering & Construction.
+              Join the list of satisfied clients who have trusted Quality Home Builders.
             </p>
             <Button to="/quote" variant="secondary" size="lg" icon={<ArrowRight size={20} />}>
               Start Your Project Today

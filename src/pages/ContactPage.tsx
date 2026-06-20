@@ -86,13 +86,13 @@ export function ContactPage() {
               viewport={{ once: true }}
               className="space-y-6 sm:space-y-8"
             >
-              {/* Map */}
+              {/* Map — Bugesera District, Rwanda */}
               <Card className="overflow-hidden" style={{ height: 'clamp(220px, 30vw, 280px)' }}>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.514389263938!2d30.0586!3d-1.9441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca76a5f7f7f7f%3A0x1234567890abcdef!2sKigali%2C%20Rwanda!5e0!3m2!1sen!2s!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31904.2!2d30.1400!3d-2.1400!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dbeef8d3b2f5e5%3A0x0!2sBugesera%2C%20Rwanda!5e0!3m2!1sen!2srw!4v1718800000000"
                   width="100%" height="100%" style={{ border: 0 }}
                   allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"
-                  title="Athanase Engineering & Construction Location"
+                  title="Quality Home Builders Location"
                 />
               </Card>
 
@@ -147,7 +147,7 @@ export function ContactPage() {
           <SectionHeader title="Frequently Asked Questions" subtitle="Quick answers to common questions about our services." />
           <div className="space-y-3 sm:space-y-4">
             {[
-              { q: 'What areas do you serve?', a: 'We operate throughout Rwanda, with headquarters in Kigali. We also serve neighboring East African countries.' },
+              { q: 'What areas do you serve?', a: 'We operate throughout Rwanda, with our base in Bugesera District. We serve all provinces.' },
               { q: 'Do you offer free consultations?', a: 'Yes, we offer free initial consultations and project assessments. Contact us to schedule yours.' },
               { q: 'What payment terms do you offer?', a: 'We offer flexible payment terms based on project milestones. Financing options are available for qualifying clients.' },
               { q: 'Are you licensed and insured?', a: 'Yes, we are fully licensed by RERA and carry comprehensive liability insurance for all projects.' },

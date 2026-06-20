@@ -84,7 +84,7 @@ export function HomePage() {
               className="inline-block mb-4 sm:mb-6"
             >
               <span className="px-3 sm:px-4 py-1.5 sm:py-2 bg-[#F39C12] rounded-full text-xs sm:text-sm font-semibold">
-                Rwanda's Trusted Construction Partner Since 2010
+                Built on Integrity, Quality Driven
               </span>
             </motion.div>
 
@@ -128,12 +128,12 @@ export function HomePage() {
               transition={{ duration: 0.6 }}
             >
               <SectionHeader
-                title="About Athanase Engineering & Construction"
+                title="About Quality Home Builders"
                 subtitle="Leading the construction industry in Rwanda with innovative solutions and uncompromising quality."
                 centered={false}
               />
               <p className="text-gray-600 mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
-                Founded in 2010, Athanase Engineering & Construction Ltd has grown to become one of Rwanda's most trusted construction companies. We specialize in delivering comprehensive construction solutions that transform visions into reality.
+                Founded in 2010, Quality Home Builders has grown to become one of Rwanda's most trusted construction companies. We specialize in delivering comprehensive construction solutions that transform visions into reality.
               </p>
               <p className="text-gray-600 mb-6 sm:mb-8 leading-relaxed text-sm sm:text-base">
                 From residential homes to commercial complexes, infrastructure projects to industrial facilities, we bring expertise, innovation, and dedication to every project.
