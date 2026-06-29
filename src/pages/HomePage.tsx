@@ -170,8 +170,44 @@ export function HomePage() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      {/* Design Gallery */}
       <section className="py-14 sm:py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <SectionHeader
+            title="Our Design Work"
+            subtitle="Architectural renders and 3D visualizations from our latest residential projects."
+          />
+          <div className="flex flex-wrap justify-center gap-6 sm:gap-10">
+            {[
+              { src: '/images/WhatsApp_Image_2026-06-20_at_10.48.52.jpeg', alt: 'Front view architectural render' },
+              { src: '/images/WhatsApp_Image_2026-06-20_at_10.48.52_(1).jpeg', alt: 'Side view architectural render' },
+              { src: '/images/WhatsApp_Image_2026-06-20_at_10.48.52_(2).jpeg', alt: 'Interior design render' },
+              { src: '/images/WhatsApp_Image_2026-06-20_at_10.48.53.jpeg', alt: 'Perspective view render' },
+              { src: '/images/WhatsApp_Image_2026-06-20_at_10.48.53_(1).jpeg', alt: 'Night view render' },
+            ].map((img, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="flex flex-col items-center gap-3"
+              >
+                <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-[#F39C12] shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                  <img
+                    src={img.src}
+                    alt={img.alt}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us */}
+      <section className="py-14 sm:py-20 bg-[#F8F9FA]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <SectionHeader
             title="Why Choose Us"
